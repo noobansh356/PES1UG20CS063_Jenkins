@@ -4,13 +4,13 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'g++ -o PES1UG20CS058-1 PES1UG20CS058-1.cpp'
+                sh 'g++ -o pes1ug20cs063-1 pes1ug20cs063-1.cpp'
             }
         }
 
         stage('Test') {
             steps {
-                sh './PES1UG20CS058-1'
+                sh './pes1ug20cs063-1'
             }
         }
 
